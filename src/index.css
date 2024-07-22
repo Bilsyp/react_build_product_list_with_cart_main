@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary_text: #2c140e;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FCF8F5] font-redhat;
+  }
+}
